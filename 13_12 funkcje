@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Wypisanie"></div>
+    <script>
+        //zad1
+        const formularz = document.querySelector('form');
+        const divWypisanie = document.querySelector('.Wypisanie');
 
+        const zd = function() {
+            return  "Halo halo";
+        }
+        form.addEventListener('submit', (e) => {
+        e.prevntDefault();
+        divWypisanie.textContent = zd();
+        });    
+
+    //zad2
+    //s=suma
+    function funkcja(a,b){
+        let s=0;
+        s=a*1+b*1;
+        document.writeln(s);
+    }
+    const x = prompt('Wprowadz x: ');
+    const y = prompt('Wprowadz y: ');
+
+    funkcja(x,y);
+    </script>
+</body>
+</html>
