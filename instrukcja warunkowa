@@ -93,7 +93,81 @@
         //     document.write('Nie jest podzielna');
         // }
         //zad7
-  
+        //zad7
+//    const  a =prompt('Wprowadź liczbe a:');
+
+//    const  b =prompt('Wprowadź liczbe b:');
+
+//    const dzialanie =prompt('Jakie dzialanie chcesz wykonac:');
+
+//    var dodawanie;
+
+//    var odejmnowanie;
+
+//    var mnozenie;
+
+//    var dzielenie;
+   
+//    if(dzialanie=='+'){
+
+//     dodawanie=a+b;
+
+//     document.write('DODAWANIE, ', 'Wczytano liczby: ' +a , ',' , b, ' Wynik:'+dodawanie)
+//    }
+//    else if(dzialanie=='-'){
+//        odejmnowanie=a-b;
+//        document.write('ODEJMOWANIE ', 'Wczytano liczby' +a, ',', b, ' Wynik:' +odejmnowanie)
+//    }
+//    else if(dzialanie=='*'){
+//        mnozenie=a*b;
+//        document.write('MNOŻENIE ', 'Wczytano liczby' +a, ',', b, ' Wynik:' +mnozenie)
+//    }
+//    else if(dzialanie=='/'){
+//        dzielenie=a/b;
+//        document.write('DZIELENIE ', 'Wczytano liczby' +a, ',',b, ' Wynik:' +dzielenie)
+//    }
+
+//zad8
+// const  l =prompt('Wprowadź liczbe:')*1;
+//    switch (l){
+//    case(1):
+//        document.writeln('miesiąc: Styczen');
+//        break;
+//    case(2):
+//        document.writeln('miesiąc: Luty');
+//        break;
+//    case(3):
+//        document.writeln('miesiąc: Marzec');
+//        break;
+//    case(4):
+//        document.writeln('miesiąc: Kwiecien');
+//        break;
+//    case(5):
+//        document.writeln('miesiąc: Maj');
+//        break;
+//    case(6):
+//        document.writeln('miesiąc: Czerwiec');
+//        break;
+//    case(7):
+//        document.writeln('miesiąc: Lipiec');
+//        break;
+//    case(8):
+//        document.writeln('miesiąc: Sierpien');
+//        break;
+//    case(9):
+//        document.writeln('miesiąc: Wrzesien');
+//        break;
+//     case(10):
+//        document.writeln('miesiąc: Pazdziernik');
+//        break;
+//     case(11):
+//        document.writeln('miesiąc: Listopad');
+//        break;
+//     case(12):
+//        document.writeln('miesiąc: Grudzien');
+//        break;
+//        default:
+//            document.writeln('Została wprowadzona zła liczba!');
 
         //formularz(wspolne)
     </script>
