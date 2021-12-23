@@ -93,30 +93,7 @@
         //     document.write('Nie jest podzielna');
         // }
         //zad7
-   const  a =prompt('Podaj liczbe a:');
-   const  b =prompt('Podaj liczbe b:');
-   const dzialanie =prompt('Podaj jakie dzialanie chcesz wykonac:');
-   var dodawanie;
-   var odejmnowanie;
-   var mnozenie;
-   var dzielenie;
-   if(dzialanie=='+'){
-    dodawanie=a+b;
-    document.write('Wybrales dodawanie, ', 'Wczytano liczby: ' +a , ',' , b, ' Wynik to:'+dodawanie)
-   }
-   else if(dzialanie=='-'){
-       odejmnowanie=a-b;
-       document.write('Wybrales odejmnowanie ', 'Wczytano liczby' +a, ',', b, ' Wynik to:' +odejmnowanie)
-   }
-   else if(dzialanie=='*'){
-       mnozenie=a*b;
-       document.write('Wybrales mnozenie ', 'Wczytano liczby' +a, ',', b, ' Wynik to:' +mnozenie)
-   }
-   else if(dzialanie=='/'){
-       dzielenie=a/b;
-       document.write('Wybrales dzielenie ', 'Wczytano liczby' +a, ',',b, ' Wynik to:' +dzielenie)
-   }
-
+  
 
         //formularz(wspolne)
     </script>
