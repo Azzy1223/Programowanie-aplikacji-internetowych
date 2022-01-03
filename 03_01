@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		// var liczba1 = 1223.2132312;
+		
+		// document.write('nasza liczba: '+ liczba1 +"    ");
+		// document.write('nasza liczba po wykonaniu: '+ liczba1.toFixed(2));
+
+		// const zdanie ="Ala ma kota";
+		// zdanie.charAt(1);
+		// zdanie.charAt(4);
+		// zdanie.length; 
+
+		// const zdanie = "ala ma kota";
+		// if(zdanie.indexOf("kot")>-1){
+		// 	console.log("Znalazlem podany ciag");
+		// }else{
+		// 	console.log("Nie znalalzlem");
+		// }
+
+		// const zdanie = "Ala ma kota";
+		// zdanie.toUpperCase(); //ALA MA KOTA	
+		// zdanie.toLowerCase(); //ala ma kota
+
+		// const zdanie = "Ala ma kota";
+		// const zdanieZmiana = zdanie.replace("Ala","Kasia");
+		// console.log(zdanieZmiana);
+
+		// const zdanie = "Ala ma kota";
+		// const tablica = zdanie.split(" ");
+		// console.log(tablica[0]); //Ala
+		// console.log(tablica[1]); //ma
+		// console.log(tablica[2]); //kota
+
+
+	</script>
+</body>
+</html>
