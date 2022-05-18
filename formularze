@@ -13,17 +13,15 @@
     <div>
 
     </div>
-    <script>
-        let divW = document.querySelector('div');
-        let przycisk = document.querySelector('input[name="przycisk"]');
-        let tekst = document.querySelector('input[name="tekst"]')
-        przycisk.addEventListener('click',function(e)
-        {
-            divW.textContent += tekst.value;
-        });
-    </script>
-
-
+        <script>
+            let divW = document.querySelector('div');
+            let przycisk = document.querySelector('input[name="przycisk"]');
+            let tekst = document.querySelector('input[name="tekst"]')
+            przycisk.addEventListener('click',function(e)
+            {
+                divW.textContent += tekst.value;
+            });
+     </script>
     </script>
 </body>
 </html>
