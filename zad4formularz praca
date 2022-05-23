@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: flex;
+            margin: 10px 0;
+        }
+        label {
+            display: block;
+            width: 160px;
+        }
+        input[type='submit']{
+            margin: 0 20px;
+        }
+        div.dane 
+        {
+            display: block;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post" novalidate>
+        <div> 
+        <label for="imie"> Podaj imię osoby zapraszanej: </label>
+        <input type="text" name="imie" id="imie" />
+        </div>
+        <div>
+        <label for="nazwisko"> Podaj nazwisko osoby zapraszanej: </label>
+        <input type="text" name="nazwisko" id="nazwisko" />
+        </div>
+        <div>
+        <label for="zaproszenie"> Podaj treść zaproszenia: </label>
+        <input type="text" name="zaproszenie" id="zaproszenie" />
+        </div>
+        <div>
+            Wybierz okazję:
+            <div><input type="radio" name="opcje" value="wesele">Wesele</div>
+            <div><input type="radio" name="opcje" value="komunia">Komunia</div>
+            <div><input type="radio" name="opcje" value="chrzciny">Chrzciny</div>
+        </div>
+        <div>
+        <input type="reset" value="Wyczyść zaproszenie">
+        <input type="submit" value="Wyślij zaproszenie">
+        </div>
+    </form>
+
+    <div class="dane">Podgląd zaproszenia:</div>
+
+    <script>
+    const formularz = document.querySelector('form');
+    const imiePole = document.querySelector('input[name="imie"]');
+    const nazwiskoPole = document.querySelector('input[name="nazwisko"]');
+    const zaproszeniePole = document.querySelector('input[name="zaproszenie"]');
+    const divDane = document.querySelector('div.dane');
+
+    formularz.addEventListener('submit', function(e){
+    e.preventDefault();
+
+    const imie = imiePole.value;
+    const nazwisko = nazwiskoPole.value;
+    const zaproszenie = zaproszeniePole.value;
+
+    if(imie == '' || nazwisko == ''|| zaproszenie == '') {
+        divDane.innerHTML = '<h2>Wszystkie pola muszą zostać uzupełnione!</h2>';
+    }
+
+    else{
+   divDane.innerHTML = `
+    <h2> Dane formularza: </h2>
+    <p> Imię: ${imie}</p>
+    <p> Nazwisko: ${nazwisko}</p>
+    <p> Zaproszenie: ${zaproszenie}</p>
+    `;
+    }
+
+    });
+    </script>
+</body>
+</html>
