@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  Liczba a  <input type="text" id="a" ><br>
+  Liczba b  <input type="text" id="b" ><br>
+  Liczba c  <input type="text" id="c" ><br>
+  Liczba h  <input type="text" id="h" ><br>
+
+  <button onclick="obwód()">Obwód trojkąta</button>
+  <button onclick="pole()">Pole trojkąta</button><br><br>
+
+  Wynik: <div id="wynik"></div>
+
+<script>
+    function obwód(){
+        var a=parseInt(document.getElementById("a").value);
+        var b=parseInt(document.getElementById("b").value);
+        var c=parseInt(document.getElementById("c").value);
+        
+        var wynik1=a+b+c;
+        document.getElementById("wynik").innerHTML=wynik1;
+    }
+    function pole(){
+        var a=parseInt(document.getElementById("a").value);
+        var h=parseInt(document.getElementById("h").value);
+
+        var wynik2=(a*h)/2;
+        document.getElementById("wynik").innerHTML=wynik2;
+
+
+    }
+
+</script>
+</body>
+</html>
