@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+    /*
+        $x=0;
+        while($x <100){
+            if($x%5 == 0)
+            echo ($x." ");
+            $x++;
+        }
+
+        echo"<br>";
+
+        $suma = 0;
+
+        do{
+            $x = rand(1,20);
+            $suma += $x;
+            print($x."+");
+        }while($suma<100);
+        print("0 = ".$suma)
+    */
+
+    //zad1 
+    echo "zad 1";
+    echo "<br>";
+    echo "for";
+    echo "<br>";
+    for($x=1;$x<21;$x++)
+    {
+        echo($x." ");
+    }
+
+    echo "<br>";
+    echo "while";
+    echo "<br>";
+    $y = 1;
+    while($y<21)
+    {
+        echo($y." ");
+        $y++;
+    }
+
+    echo "<br>";
+    echo "do-while";
+    echo "<br>";
+    $z=1;
+    do
+    {
+        echo($z." ");
+        $z++;
+    }while($z<21);
+
+    echo "<br>";
+    //zad2
+
+    echo "zad 2 <br>";
+    echo "for";
+    echo "<br>";
+    for($x=100;$x>49;$x--)
+    {
+        echo($x." ");
+    }
+
+    echo "<br>";
+    echo "while";
+    echo "<br>";
+    $y = 100;
+    while($y>49)
+    {
+        echo($y." ");
+        $y--;
+    }
+
+    echo "<br>";
+    echo "do-while";
+    echo "<br>";
+    $z=100;
+    do
+    {
+        echo($z." ");
+        $z--;
+    }while($z>49);
+
+    echo "<br>";
+    //zad3
+
+    echo "zad 3 <br>";
+    echo "for";
+    echo "<br>";
+    for($x=1;$x<=100;$x++)
+    {
+        if($x % 5==0)
+        echo($x." ");
+    }
+
+    echo "<br>";
+    echo "while";
+    echo "<br>";
+    $y = 1;
+    while($y <=100)
+    {
+        if($y % 5 == 0){
+        echo($y." ");
+        }
+        $y++;
+    }
+
+    echo "<br>";
+    echo "do-while";
+    echo "<br>";
+    $z=1;
+    do
+    {
+        if($z%5==0)
+        echo($z." ");
+        $z++;
+    }while($z<=100);
+
+    echo "<br>";
+
+
+    echo "<br>";
+    //zad4
+    $x=1;
+    $y=27;
+    echo "zad 4 <br>";
+    echo "for";
+    echo "<br>";
+    for(;$x<$y;$x++)
+    {
+        echo($x." ");
+    }
+
+    echo "<br>";
+    echo "while";
+    echo "<br>";
+    $x=1;
+    $y=27;
+    while($x<$y)
+    {
+        echo($x." ");
+        $x++;
+    }
+
+    echo "<br>";
+    echo "do-while";
+    echo "<br>";
+    $x=1;
+    $y=27;
+    do
+    {
+        echo($x." ");
+        $x++;
+    }while($x<$y);
+
+    echo "<br>";
+
+    echo "<br>";
+    //zad5
+
+    $x=23;
+    $y=54;
+    echo "zad 5 <br>";
+    echo "for";
+    echo "<br>";
+    for(;$x<$y;$x++)
+    {
+        echo($x." ");
+    }
+
+    echo "<br>";
+    echo "while";
+    echo "<br>";
+    $x=23;
+    $y=54;
+    while($x<$y)
+    {
+        echo($x." ");
+        $x++;
+    }
+
+    echo "<br>";
+    echo "do-while";
+    echo "<br>";
+    $x=23;
+    $y=54;
+    do
+    {
+        echo($x." ");
+        $x++;
+    }while($x<$y);
+
+    echo "<br>";
+    ?>
+</body>
+</html>
